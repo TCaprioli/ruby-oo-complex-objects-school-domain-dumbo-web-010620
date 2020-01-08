@@ -13,6 +13,7 @@ attr_accessor :roster
         @roster[grade] << name
       else 
         @roster[grade] << name
+      end
       
       
   end
