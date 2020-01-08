@@ -21,7 +21,7 @@ attr_accessor :roster
   end
     
   def sort 
-     @roster
+     @roster.sort_by{|key| key}
   end 
 
 end #end of class
