@@ -23,7 +23,7 @@ attr_accessor :roster
   end
     
   def sort 
-     new_roster = @roster.map {|grade, name| name.sort}
+     grade(@roster[grade])
   end 
 
 end #end of class
