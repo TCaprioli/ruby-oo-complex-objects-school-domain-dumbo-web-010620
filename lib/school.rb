@@ -11,11 +11,11 @@ attr_accessor :roster
        @roster[grade]||= [name]
        
       #if @roster[grade] == nil
-       # @roster[grade] = []
-       # @roster[grade] << name
-      #else 
-        #@roster[grade] << name
-      #end
+        #@roster[grade] = []
+       #@roster[grade] << name
+      else 
+        @roster[grade] << name
+      end
   end
       
   def grade(grade)
