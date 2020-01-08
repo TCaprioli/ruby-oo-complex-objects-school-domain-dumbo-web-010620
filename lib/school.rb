@@ -20,7 +20,9 @@ attr_accessor :roster
     @roster[grade]
   end
     
-   
+  def sort 
+     @roster
+  end 
 
 end #end of class
  
