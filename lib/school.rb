@@ -19,11 +19,12 @@ attr_accessor :roster
   end
       
   def grade(grade)
+    @grade = grade
     @roster[grade]
   end
     
   def sort 
-     grade(@roster[grade])
+     @roster[@grade]
   end 
 
 end #end of class
