@@ -1,22 +1,14 @@
 require "pry"
 class School
+  attr_accessor :roster
   
-  @@roster = {}
-  
-  
-  def initialize(school_name)
-    @@roster
+  def initialize
+    @roster = {}
   end 
-  def roster 
-   @@roster
-  end
-  def roster=(roster)
-   @@roster = roster
-  end 
-  def add_student(name,grade)
-    
- end
+  
+  
+end #end of class
  
 
-binding.pry 
+#binding.pry 
 0 
