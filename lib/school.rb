@@ -21,7 +21,7 @@ attr_accessor :roster
   end
     
   def sort 
-     @roster.map {|key,value| value.sort}
+     @roster.map {|key,value| key.sort value.sort}
   end 
 
 end #end of class
