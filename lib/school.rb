@@ -23,7 +23,7 @@ attr_accessor :roster
   end
     
   def sort 
-     new_roster = @roster.each {|grade, name| name.sort}
+     new_roster = @roster.each {|grade, name| grade.sort}
   end 
 
 end #end of class
