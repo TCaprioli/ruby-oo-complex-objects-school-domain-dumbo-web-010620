@@ -12,7 +12,7 @@ attr_accessor :roster
   end
     
    
-end
+
 end #end of class
  
 
