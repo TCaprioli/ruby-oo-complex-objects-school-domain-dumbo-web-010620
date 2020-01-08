@@ -21,7 +21,7 @@ attr_accessor :roster
   end
     
   def sort 
-     
+     @roster[grade].sort
   end 
 
 end #end of class
